@@ -9,6 +9,12 @@
 Changes
 =======
 
+Version v6.1.0 (released 2026-08-04)
+
+- fix(build): include mo files
+- fix(ci): run tests on maint-*
+- helpers: add no_cache cache-control for restricted files
+
 Version v6.0.1 (released 2026-07-09)
 
 - fix(errors): handle FileNotFoundError to avoid leaking details
